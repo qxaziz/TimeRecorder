@@ -1,0 +1,36 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+}
+
+.container{
+    background-color:#ebd8f9;
+    width:75%;
+    margin:auto;
+    margin-top:15px;
+    heght:auto;
+    position: relative;
+}
+.borders{
+    border: 2px solid #2096ba;    
+}
+
+.activities {
+background-color: greenyellow;
+height:150px;
+width: 100%;
+}
+.fullH {
+position:absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;
+
+}
