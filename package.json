@@ -4,8 +4,9 @@
   "description": "This is to track every event one needs to.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run check && node app.js",
+    "check": "nsp check",
+    "tunnel-me": "lt --port 8000 --subdomain aziz"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.3",
+    "moment": "^2.22.2",
     "mongoose": "^5.0.11"
   }
 }
