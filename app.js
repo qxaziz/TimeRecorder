@@ -12,5 +12,5 @@ app.get("/",function(req, res){
 });
 
 app.listen(8000,function(req,res){
-    console.log("Listening at port 8000 !!!");
+    console.log("Listening at port 8000");
 })
