@@ -4,7 +4,8 @@
   "description": "This is to track every event one needs to.",
   "main": "app.js",
   "scripts": {
-    "start": "npm run check && node app.js",
+    "prestart":"npm run check",
+    "start": "node app.js",
     "check": "nsp check",
     "tunnel-me": "lt --port 8000 --subdomain aziz"
   },
